@@ -1,0 +1,233 @@
+version: "3.1"
+nlu:
+- intent: bye
+  examples: |
+    - tạm biệt
+    - tạm biệt nhé
+    - cảm ơn nhiều
+    - bye
+    - thanks hêh
+- intent: greeting
+  examples: |
+    - xin chào
+    - chào bạn
+    - chào buổi sáng
+    - tôi muốn tìm kiếm thông tin
+    - xin chaof
+    - xin chao
+    - xin chào bot
+    - bạn ơi
+    - alo
+- intent: inquire_boxer_info
+  examples: |
+    - [Patrick Williams ]{"entity": "boxer_name", "value": "Patrick Williams"}là ai
+    - [Alberto Mina ]{"entity": "boxer_name", "value": "Alberto Mina"}là ai?
+    - [Cung Le ]{"entity": "boxer_name", "value": "Cung Le"}là ai ?
+    - [Cung Le ]{"entity": "boxer_name", "value": "Cung Le"}là ai?
+    - C[laudia Gadelha ]{"entity": "boxer_name", "value": "Claudia Gadelha"}là ai?
+    - Hãy cho tôi thông tin về [Muhammad Ali](boxer_name).
+    - Tôi quan tâm đến thông tin về [Floyd Mayweather](boxer_name).
+    - [Floyd Mayweather](boxer_name) là ai ?
+    - [Amir Khan](boxer_name) là ai ?
+    - [Amir Khan](boxer_name) có kỷ lục như thế nào?
+    - Tôi muốn biết về sự nghiệp của [Anthony Joshua](boxer_name).
+    - [Deontay Wilder](boxer_name) đã giành được những danh hiệu gì?
+    - Tôi muốn tìm hiểu về lịch sử đấu của [Tyson Fury](boxer_name).
+    - [Vasyl Lomachenko](boxer_name) hiện tại ra sao?
+    - Tôi muốn biết thông tin chi tiết về [Saul Alvarez](boxer_name).
+    - [Gennady Golovkin](boxer_name) đã thắng bao nhiêu trận?
+    - Hãy cho tôi biết về [Errol Spence Jr.](boxer_name).
+    - Tôi muốn tìm hiểu về [Terence Crawford](boxer_name).
+    - [Keith Thurman](boxer_name) có phong độ thế nào gần đây?
+    - Tôi muốn biết về những trận đấu của [Danny Garcia](boxer_name).
+    - Tôi muốn tìm thông tin về [Shawn Porter](boxer_name).
+    - Hãy cho tôi biết về [Yordenis Ugas](boxer_name).
+    - Tôi quan tâm đến sự nghiệp của [Kell Brook](boxer_name).
+    - [Adrien Broner](boxer_name) đã thi đấu như thế nào?
+    - Tôi muốn biết thông tin chi tiết về [Leo Santa Cruz](boxer_name).
+    - tôi muốn biết về M[icheal Jodan]{"entity": "boxer_name", "value": "Micheal Jodan"}
+    - [Cung Le](boxer_name) là ai ?
+    - Cung Le
+    - CUng Le là ai ?
+- intent: inquire_boxer_info1
+  examples: |
+    - tôi muốn tìm kiếm thông tin về võ sĩ
+    - tôi muốn hỏi về đấu sĩ
+    - tôi muốn tìm hiểu thông tin về boxer
+    - tôi muốn tìm thông tin về boxer
+    - tôi muốn tìm thông tin về 1 số võ sĩ
+    - tìm đấu sĩ
+    - tìm boxer
+    - tìm võ sĩ
+    - Hãy cung cấp thông tin về các đấu sĩ hạng nặng.
+    - Tôi muốn tìm hiểu về các võ sĩ mới nổi.
+    - tôi muốn tìm boxer
+    - tôi muốn tìm đấu sĩ
+    - tôi muốn tìm thông tin boxer
+- intent: inquire_championship_details
+  examples: |
+    - Tôi muốn biết lịch sử của giải [WBC](championship).
+    - Hãy cho tôi thông tin về chức vô địch [IBF](championship).
+    - Ai là nhà vô địch [WBO](championship) hiện tại?
+    - Khi nào giải [WBA](championship) được tổ chức lần đầu tiên?
+    - Danh sách các nhà vô địch [IBO](championship) qua các năm?
+    - Lịch sử chiến thắng của giải [WBC](championship) trong thập kỷ qua.
+    - Có bao nhiêu võ sĩ từng đoạt giải [WBO](championship)?
+    - Chi tiết về trận đấu vô địch [WBA](championship) gần nhất?
+    - Ai là người giữ đai [IBF](championship) lâu nhất?
+    - Tìm hiểu về quy định cân nặng cho giải [WBC](championship).
+    - Kỷ lục knock-out trong giải [WBO](championship) là gì?
+    - Tôi muốn biết các đối thủ gần đây của nhà vô địch [IBO](championship).
+    - Các trận đấu nổi tiếng nhất của giải [WBA](championship).
+    - Số lượng trận đấu trong giải [IBF](championship) hàng năm.
+    - Tổng quan về giải đấu [WBC](championship) năm nay.
+    - Các nhà vô địch của giải [WBO](championship) trong 5 năm gần đây.
+    - Lịch sử hình thành của giải [WBA](championship).
+    - Thông tin về các trận đấu phân hạng trong [IBF](championship).
+    - Tìm hiểu về quyền lợi của nhà vô địch [IBO](championship).
+    - Danh sách các trận đấu bảo vệ đai [WBC](championship).
+    - tôi muốn hỏi về giải đấu [WBA](championship)
+    - tôi muốn tìm thông tin về giải [WBA](championship)
+- intent: inquire_championship_details1
+  examples: |
+    - Các giải đấu boxing quan trọng nhất thế giới là gì?
+    - Tôi muốn biết về các trận đấu vô địch gần đây.
+    - Hãy cho tôi thông tin về nhà vô địch thế giới hiện tại.
+    - Lịch sử hình thành của các giải đấu boxing quốc tế.
+    - Có bao nhiêu hạng cân trong các giải boxing chuyên nghiệp?
+    - Ai là võ sĩ đang giữ đai vô địch nặng nhất?
+    - Tìm hiểu về các quy tắc của giải đấu boxing.
+    - Các giải đấu boxing dành cho nữ có gì khác biệt?
+    - Tôi muốn biết về các trận đấu vô địch đáng chú ý.
+    - Danh sách các nhà vô địch boxing qua các năm.
+    - Các giải đấu boxing quốc gia và quốc tế phân biệt như thế nào?
+    - Quá trình đào tạo của một võ sĩ để thi đấu ở cấp độ vô địch.
+    - Thông tin về các trận đấu vô địch sắp tới.
+    - Những yếu tố quyết định một trận đấu boxing được xem là vô địch.
+    - Lịch sử về các trận đấu vô địch đình đám nhất.
+    - Cách thức một võ sĩ được chọn để thi đấu ở trận vô địch.
+    - Tôi muốn biết về các giải đấu boxing cho tuổi trẻ.
+    - Các hạng mục vô địch trong boxing được phân loại như thế nào?
+    - Tìm hiểu về quyền lợi của nhà vô địch trong boxing.
+    - Các tiêu chí để xác định nhà vô địch trong một giải đấu boxing.
+    - Tôi muốn hỏi về các giải đấu trong boxing
+    - hãy cho tôi biết thông tin về giải đấu
+- intent: inquire_rules
+  examples: |
+    - [Luật knock-out](rules) trong boxing được xác định như thế nào?
+    - Có [bao nhiêu hiệp](rules) trong một trận boxing chuyên nghiệp?
+    - Án phạt cho hành vi cấm trong boxing là gì?
+    - Các loại găng tay [được phép sử dụng](rules) trong boxing?
+    - Tôi muốn biết về [quy tắc tính điểm](rules) trong boxing.
+    - [Trọng lượng găng tay](rules) boxing phải tuân theo quy định nào?
+    - [Các hạng cân](rules) trong boxing được phân loại như thế nào?
+    - [Giới hạn tuổi](rules) cho các võ sĩ boxing chuyên nghiệp là bao nhiêu?
+    - Quy định về [thời gian nghỉ](rules) giữa các hiệp trong boxing?
+    - Có những [hình thức phạt](rules) nào trong boxing?
+    - [Quy tắc về việc sử dụng đai bảo hộ](rules) trong boxing?
+    - Tôi muốn biết về các [quy định an toàn](rules) trong boxing.
+    - Quy định về việc [cắt giảm trọng lượng trước trận đấu](rules)?
+    - Quy tắc về việc [thay đổi góc boxing giữa các hiệp](rules)?
+    - Các [yêu cầu về y tế trước khi tham gia](rules) trận đấu boxing?
+    - Luật về việc [đánh đối thủ đã ngã xuống sàn](rules)?
+    - Tôi muốn biết về [quy định đối với trọng tài](rules) trong boxing.
+    - [Hệ thống tính điểm](rules) trong các trận đấu quyền Anh Olympic?
+    - các[ hạng cân](rules) trong boxing là gì ?
+    - có [bao nhiêu hiệp](rules) trong 1 trận boxing
+- intent: inquire_rules1
+  examples: |
+    - tôi muốn tìm hiểu về luật
+    - tôi muốn biết 1 số luật
+    - Tôi muốn biết về các quy tắc chung trong boxing.
+    - Những điều cần biết về luật lệ boxing là gì?
+    - Có những quy định an toàn nào trong boxing không?
+    - Boxing có những quy tắc cơ bản nào?
+    - Hướng dẫn về các quy định thi đấu boxing?
+    - Tìm hiểu chung về luật lệ trong các trận đấu boxing.
+    - Các điểm quan trọng trong quy tắc boxing mà tôi cần biết?
+    - Tổng quan về luật lệ an toàn trong boxing.
+    - Các yếu tố cần lưu ý khi tham gia boxing?
+    - Quy định về trang phục trong boxing?
+    - Thông tin cơ bản về các quy tắc thi đấu boxing.
+    - Các điều cần biết trước khi bắt đầu boxing.
+    - Những quy tắc không viết ra trong boxing là gì?
+    - Tổng quan về các quy tắc và hình phạt trong boxing.
+    - Làm thế nào để hiểu rõ hơn về luật boxing?
+    - Các điểm cần lưu ý khi theo dõi một trận boxing.
+    - Những thông tin cơ bản về quy tắc đối kháng trong boxing.
+    - Các quy định về việc sử dụng găng trong boxing.
+    - Tìm hiểu về các quy tắc bảo vệ võ sĩ trong boxing.
+    - Cách thức xác định người thắng cuộc trong boxing.
+    - tôi muốn hỏi về 1 số luật trong boxing
+    - những điều cần biết về luật lệ trong boxing là gì?
+- intent: inquire_techniques
+  examples: |
+    - Làm thế nào để thực hiện một cú đấm [jab](techniques) hiệu quả?
+    - Tôi muốn biết cách thực hiện [cú móc](techniques) trong boxing.
+    - Kỹ thuật đánh [uppercut](techniques) trong boxing được thực hiện như thế nào?
+    - Hướng dẫn về cách [phòng thủ](techniques) trong boxing.
+    - Tôi muốn học cách [né tránh đòn đánh](techniques) trong boxing.
+    - Cách thức sử dụng cú [đấm cross](techniques) trong boxing là gì?
+    - Kỹ thuật [kết hợp đòn đánh](techniques) trong boxing.
+    - Tôi muốn biết về [kỹ thuật bước chân](techniques) trong boxing.
+    - [Kỹ thuật duy trì khoảng cách](techniques) trong boxing.
+    - Hướng dẫn cách thực hiện [cú đấm búa](techniques) trong boxing.
+    - Kỹ thuật [tấn công nhanh](techniques) trong boxing.
+    - Cách sử dụng cú [đấm thẳng](techniques) trong boxing.
+    - Tôi quan tâm đến kỹ thuật [phối hợp tay và chân](techniques) trong boxing.
+    - Hướng dẫn về cách sử dụng hiệu quả [góc độ](techniques) trong boxing.
+    - Tôi muốn học cách [kết hợp các đòn đánh](techniques) trong boxing.
+    - Cách để [cải thiện sức mạnh](techniques) đòn đánh trong boxing.
+    - Kỹ thuật [chống đỡ](techniques) trong boxing.
+    - Tôi muốn biết cách thực hiện cú [đấm trực diện](techniques).
+    - Hướng dẫn về [kỹ thuật lách](techniques) trong boxing.
+- intent: inquire_techniques1
+  examples: |
+    - các kỹ thuật trong boxing
+    - kỹ thuật boxing
+    - Các loại đòn đánh cơ bản trong boxing.
+    - phong cách boxing
+    - tìm hiểu chiến thuật boxing
+    - Tôi muốn tìm hiểu về các kỹ thuật boxing chung.
+    - Có những phong cách boxing nào khác nhau?
+    - Tìm hiểu về các kỹ thuật cơ bản trong boxing.
+    - Cách để cải thiện kỹ năng boxing của mình.
+    - Tôi quan tâm đến việc học các chiến thuật boxing.
+    - Những kỹ thuật hiệu quả nhất trong boxing là gì?
+    - Các kỹ thuật tấn công và phòng thủ trong boxing.
+    - Hướng dẫn về các bước chân trong boxing.
+    - Tìm hiểu về sự kết hợp giữa tốc độ và sức mạnh trong boxing.
+    - Cách xây dựng một chiến lược boxing hiệu quả.
+    - Tôi muốn hiểu về các kỹ thuật boxing tiên tiến.
+    - Học cách quản lý năng lượng trong một trận đấu boxing.
+    - Tôi muốn biết cách tập luyện để trở thành võ sĩ boxing.
+    - Tìm hiểu về các kỹ thuật phản công trong boxing.
+    - Những điểm cần lưu ý khi học boxing.
+    - Cách thức luyện tập để cải thiện đòn đánh.
+    - Tôi muốn biết các kỹ thuật bảo vệ bản thân trong boxing.
+    - Tìm hiểu về cách duy trì sự linh hoạt trong boxing.
+    - Hướng dẫn về cách tối ưu hóa hiệu suất trong boxing.
+    - Tôi quan tâm đến việc học các kỹ thuật kết hợp trong boxing.
+    - hãy giới thiệu cho tôi 1 số kỹ thuật boxing
+- synonym: Patrick Williams
+  examples: |
+    - Patrick Williams
+    - Patrick Williams
+- synonym: Alberto Mina
+  examples: |
+    - Alberto Mina
+    - Alberto Mina
+- synonym: Cung Le
+  examples: |
+    - Cung Le
+    - Cung Le
+- synonym: Claudia Gadelha
+  examples: |
+    - laudia Gadelha
+    - laudia Gadelha
+- synonym: Micheal Jodan
+  examples: |
+    - icheal Jodan
+- synonym: WBC
+  examples: |
+    - WBC

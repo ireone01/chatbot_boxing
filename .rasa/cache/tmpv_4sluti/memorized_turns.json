@@ -1,0 +1,31 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1tSQzL722NhYAPq0cww==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1tSQzL72WgDGlJSWpRfFg1fgMiQUAjXY3Ew==": "action_listen",
+    "eJydjlEKwjAQRK+yByiiv7lKCKHKWhbiRjebUgi5u1urFPwR/JuBx5vxrQ/Q7oJzHC9KmR20LUQeb+jgXRIVRTa2FhRjiK2qg0kQlXjqPzRVFSW+6P8l319KyloMOufF5MTX7MCfDsewT5iflNAov1GrKQzwmSZ+VBKMu6L38AQRxWjZ": "action_provide_athlete_info",
+    "eJy1jtEKwjAMRX+lHzBEX/srpZSqcQZqOtN0CGP/vmiVgS+K4FsunJx73TR3ZhoYxhAPgpmsmdoRKF7AmmdIWARI2VqAlUHSKNb0DCBI/fxBU0WAw4P+XfK+paQsRaF9vqkc6ZStcbvN1q8V6kdBUMo16m7ynXlVI10rMoRV8eWIgfOIRwhRzgkE2uvfJvkFRc+gWg==": "action_listen",
+    "eJzFkN0KgzAMRl+lDyBju+2rSCmdZhqoaddGGUjf3WxuCN7s52Z3CZyc7yP1XCo1xwSTdQ1jIK3mdbDkBtDquXjMDCTsmCEJgyQra9UlAEbqyhvNyAzJPujfJfsu2QfOAp3DTeRIl6BVfToczRYhfmQEoeqVuptMpV7RSNcRE9hN8WGJmMKELVjHvQeG9fS/lb75yz6s6d0QRZJ7jLYFduhzKWYBNofNWg==": "utter_inquire_championship_details",
+    "eJzFkdEKwjAMRX+lHzBEX/sro5S6xS3QpbXNhjD270anDPagUwTfEjg599KW41SoMSYYrKsYA2k1zoMl14FWj8VjZiBh+wxJGCRZWasmATBSM73R9MyQ7J3+XrLukn3gLNAxXESOdApalYfd3iwR4kdGEKqcqZvJFOoZjXTuMYFdFBtLxBQGrME6bj0wzKf/rfTJu6zDqtZ1USS5xWhrYIc+b/vTl4YfdjFXR5sDNA==": "action_listen",
+    "eJzFkdEKwjAMRX+lHzBEX/srY5S6xS3QpbVNhzD270anCHvQKaJvDZyee0nKcSrUGCIMxtaMnrQa54ch24NWt8FhYiBhc4IoDJKMrFUbARipnV5oMjNEc6U/lyy7JOc5CbT3J5EjHbxW5W6zrR4R4kdGEKqcqYupKtQ9GumYMYJ5KFaWCNEP2ICx3DlgmL/+t9I7e1mG1Z3tg0hSh8E0wBZdWnfTp4afdfnCCmJ2IDnVGYIaKhc=": "action_inquire_rules",
+    "eJzFkVsKwjAQRbeSBRTR32yllBDbsR1Ik5hMilC6945WKfZD6wP9y8CZcy+TvB8y0fsAndIlobNS9NNDWd2CFNfBYCSwzKYIgRm0PJIUdQAgtPXwRJOIIKgL/b5k2SUaR5GhvTuxHO3BSZHvNttijmA/EgJT+USdTUUmbtFojwkDqFmxsoQPrsMKlKbGAMG0+t9Kr9xlGVY2uvUsiQ16VQFpNHHdnz40/KzLF04QkoG1Ofc7n8QVI+U0U/I=": "action_listen",
+    "eJydjlEKgCAQBa/iATqBV4kQkYct1Jbr2o9496T6F/p7A8Pw5tomU0/B5XxQOtia+g7Hfoc1H2yUFdzdkiHdIe6o1kQBlDi2QaaoQtxj/48MvhCnQgKnCCtTKsitLTfjoFZl": "action_inquire_techniques",
+    "eJydjlEKgCAQRK/iATqBV4mQiMEWast17Ue8e1J9BkZ/M/DmMX0uncm74HDjpLSxNfkOjscV1jxloajgyqYIqQxxrWqNF0CJfWlokirEXfR/SeMLcUgkcIppZgoJ8aPwZfhJPpzV/3q9": "action_listen",
+    "eJytkFEKhDAMRK/SA3iCXkWkqIxuYE01TWWh9O5bVj+FLuJfBt48hrQpNyatgt31o5Jna9JxOO4XWHOGNwUFFzYGSGGIS1RrZgGUeM4VTVSFuB99X1LZQrxFEjjF+GLaIsKfwovic/La2sF/ymeIJ59z9wWV+5oB": "action_provide_athlete_info",
+    "eJytkFEKwjAQRK+SA3iCXEVkiXVsF+qm3WyKEHp3g/VTSBD/duDNY9hz2U+uLIqNwmAcxbtyHCThAe8+YeZkkMrmBK0MS43m3aiAsYx7Q5PNoPSmf5c0trCsmRVkGCbhNSN1Cr8U/ydvrb3GZ/0Myz12CheNG99AwaYZhqPapb+8AJO6vwA=": "action_listen",
+    "eJydjkEKgDAMBL/SB3jx2q+IlCqxBDTVNBWh9O8G9V7wtgvD7A6ldqbsDKfzs2Aka8obHPkNrPnKikmAlM0JWBkkrWJNYABBCrWhySLA7qH/SxpfkI6MDG6Kl24hLbGvdbwBOTFWiA==": "utter_inquire_boxer_info",
+    "eJydjkEKgDAMBL/SB3jx2q+IlCqxBDTVNBWh+HeLevPQ4i0Ls5Pt0tmotDLsxo6CnrRKz2HILqDVG2YMApTZGIAzg5SjaOUYQJDcWdBEEWBz0/8lhS1IW0QGM/gj/0KafFs361uslPcXO9p6qw==": "action_listen",
+    "eJytjtEKwjAMRX8lHzDEvfZXSilT4gjMVNNUhNJ/NzphoMhEfMuFk3Ovr62DehK8xGGvlNhBnY/IwxEdPMNEWZGNLRnFGGKL6mAURCUe24qmqKLEB/27ZGUL8bmQYNylq3URH1L/3az3x7/IX+fmKWk2aFE48P1mG5Y2qyIlNMrP1N0UOvi8orVwA+AfrHE=": "action_provide_athlete_info",
+    "eJy1j9EKwjAMRX+lHzDEvfZXSilV4wzUdLbZEMr+fdEpA0U2RN8SOLn3xJShUqVN0Du/Z4ykVZkGR/4MWj2WgJmBhO0yJGGQZGWtmgTASM2wENMxQ3J3+vuQBRekS4cJ3C5epQvpGOt1Wu+HPwl/1c0hchZojtDK1JutndukChlBKDNRtyRbqc8WKyXaFHs8gPN8CsDwfPJPSnYE5rrj8g==": "action_listen",
+    "eJydjkEKgDAMBL/SB/iCfkUkFF00oLGmqZfSv1vUu+BtB4Zh+1I7V6LipDAa7+JdeQZJ2ODdCysngzQ3J2hzWBqad7MCxjLXj0w2g9Jt/498fGE5MitoXMIWm5gWjjTBAq+p1uECV+1adA==": "utter_inquire_championship_details",
+    "eJydjlEKgzAQRK+SA/QEuYqUJegQF3Sbbjb9Cd7doH6btn8z8HgzQ90eribFh8Jo/BLv6hlIwgrvrrJwNkhjS4Y2hqVV8y4qYCxx62iKGZQO+n9J5wvLu7CCxjmsqYF55kQTLPCSv/t3a/hx77kDhwyGoA==": "action_listen",
+    "eJytj00KwkAMha+SA4jodq5SyjDU0Aam6Zhk3Ay9u8GfjQur4i4PPr730rV1B60IXmIajBYO0O5H5DRjgEfIpIbsbFUUZ4g9WoBREI14XDc01Qwl3ujfJRtbiM+VBOMwpbk4qBOVeEJLlPWzfW8Nf+17fUXzYurQ0xWgO+4P/bel/RUT+7LE": "inform_championship_info",
+    "eJytj0sOwjAMRK+SAyAE21ylqqKomNZS4gTbYRP17qR8FrCgCHXnsZ5nxl2dd6Zmhqvzg2Iia+pjcOQjWPMUAUWBGlsEuDFITao1IwMo0jiv2BRVYHen/zdZ6YJ0KcjghsnH3ECZMLsTqMcgv/X76rBp3ucrEpJKg15e1nTH/aHfNhTpnDi+ny677fL7G58J43Q=": "action_listen",
+    "eJytjsEJgDAQBFtJAVaQVkSCyKIHeurl4iekd4P6FKLibxdmh61jqkxcBJtrO6WZrYlncNxOsOYqI3kFZzZ4SGaIc1VregGUuE8FTVCFuIP+Lil8IV4DCZyiG5jWAP9QeDP8T/7mbbMDlj2aDw==": "action_inquire_techniques",
+    "eJzNjsEJgDAQBFtJAVaQVkSCyKIHeurl4iekd4P6FCLiw98uzA5bx1SZuAg213ZKM1sTz+C4nWDNVUbyCs5s8JDMEOeq1vQCKHGfCpqgCnEH/V5S+EK8BhI4RTcwrQH+ofBm+J38N2+bHR7Vvmc=": "action_listen",
+    "eJydjkEKgDAMBL/SB/iCfkUkFFlKoEZNUy+lf7eo94K3HRiGnWubXD0UF4XVeBfv6jtIwgbvPkicDdLdkqHdYelo3kUFjCW2QaaYQemx/0cGX1jOwgrSkpBbW244x1RX": "action_inquire_rules",
+    "eJydjlEKgCAQRK/iATqBV4kQiUEWbKt17Ue8e1L99GX0NwNvHjOWOpiyCQ7nZ6WVrSl3cOwXWPOUSEnBjc0J0hjiVtWaIIASh9rRZFWIu+j/ks4X4j2TwEmOSB9d701POZ3E4nST": "action_listen",
+    "eJytjkEKwkAMRa+SAxTR7VylDEORUALTVJNMN0Pv3jCKxYVUxF0+eXk/fV07qDfBJQ1Xo5kD1MeQeJgwwDNkUkN2tiiKM8QeLcAoiEY8rgeaYoaSGv275OAX4nshwSQlo37per/5i/L1nubZ1KF2HKC/nM5xr3A/GbVFA2IHH1rjBp52oGQ=": "action_inquire_rules",
+    "eJytj8EKwzAIhl/FByhju+ZVSghlSBEyu6nZJfTdJ9nY6Kll5OaPn5861nWAehd8pulqtHCA+i4STzcM8AmZ1JCdLYriDLFHCzALohHP646mmKGkRv8v2bmF+FFIMEnJqAdd25kuyu95mhdTh9pwgPFyOsffCveTUWs0IA7Q85Fey+MLbObPLQ==": "action_listen"
+  }
+}

@@ -1,0 +1,89 @@
+version: '3.1'
+actions:
+- utter_greet
+- utter_inquire_boxer_info
+- action_provide_athlete_info
+- inform_championship_info
+- utter_inquire_championship_details
+- action_inquire_rules
+- action_inquire_techniques
+- bye
+- utter_inquire_rules
+- utter_inquire_techniques
+entities:
+- boxer_name
+- championship
+- rules
+- bye
+- techniques
+intents:
+- bye
+- greeting
+- inquire_boxer_info
+- inquire_boxer_info1
+- inquire_championship_details
+- inquire_championship_details1
+- inquire_rules
+- inquire_rules1
+- inquire_techniques
+- inquire_techniques1
+slots:
+  boxer_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: boxer_name
+  boxer_info:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: boxer_name
+  championship:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: championship
+  rules:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: rules
+  techniques:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: techniques
+responses:
+  bye:
+  - text: Hẹn gặp bạn lần sau.
+  - text: Tạm biệt và chúc bạn một ngày tốt lành!
+  - text: Chào tạm biệt! Hãy quay lại nếu bạn cần thêm thông tin về boxing.
+  utter_greet:
+  - text: Xin chào! Bạn cần hỗ trợ thông tin gì về boxing hôm nay?
+  - text: Chào bạn, tôi có thể giúp gì cho bạn về môn boxing?
+  - text: Chào mừng đến với dịch vụ thông tin boxing của chúng tôi. Bạn cần giúp đỡ gì?
+  - text: Xin chào! Tôi ở đây để trả lời mọi câu hỏi về boxing bạn có thể có.
+  utter_inquire_boxer_info:
+  - text: Bạn muốn biết thông tin về võ sĩ nào? Hãy cho tôi biết tên  của họ.
+  - text: Bạn muốn quan tâm đến võ sĩ nào?
+  - text: Hãy nói cho tôi biết, bạn quan tâm đến thông tin về võ sĩ nào cụ thể?
+  - text: Tôi có thể cung cấp thông tin về bất kỳ võ sĩ boxing nào bạn muốn biết. Hãy cho tôi biết tên họ.
+  utter_inquire_championship_details:
+  - text: Bạn quan tâm đến thông tin về giải đấu cụ thể nào? Hãy cho tôi biết để tôi có thể giúp bạn.
+  - text: Từ giải quốc gia đến quốc tế, hãy cho tôi biết bạn cần thông tin về giải đấu nào.
+  - text: Chức vô địch nào bạn quan tâm? UFC, WBA, WBC, hoặc một tổ chức khác?
+  utter_inquire_rules:
+  - text: Có điều gì cụ thể về luật lệ bạn muốn tìm hiểu không?
+  - text: Từ quy tắc cơ bản đến nâng cao, tôi ở đây để giải đáp mọi thắc mắc về luật lệ boxing của bạn.
+  - text: Nếu bạn có bất kỳ câu hỏi nào về luật lệ boxing, hãy để tôi giúp bạn làm rõ.
+  utter_inquire_techniques:
+  - text: Có kỹ thuật boxing cụ thể nào bạn muốn biết thêm? Đấm, đá, khóa, hay phòng thủ?
+  - text: Từ đấm đến phòng thủ, tôi có thể cung cấp thông tin về mọi kỹ thuật boxing. Hãy hỏi đi!
+  - text: Bạn muốn nâng cao kỹ năng boxing của mình? Hãy hỏi tôi về bất kỳ kỹ thuật nào bạn quan tâm.
+  utter_unclear:
+  - text: xin lỗi hiện tại tôi không thể hiểu được câu hỏi của bạn.
+  - text: Tôi không chắc mình hiểu bạn. Bạn có thể nói rõ hơn được không?
+  - text: Có vẻ như tôi gặp khó khăn trong việc hiểu bạn. Bạn có thể đặt câu hỏi theo cách khác không?
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

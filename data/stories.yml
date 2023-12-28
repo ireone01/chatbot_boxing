@@ -1,0 +1,169 @@
+version: "3.1"
+
+stories:
+
+- story: story_001
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_boxer_info
+    entities:
+      - boxer_name: "Johnny Case"
+  - action: action_provide_athlete_info
+  - intent: inquire_championship_details
+  - action: utter_inquire_championship_details
+  - intent: inquire_rules
+  - action: action_inquire_rules
+
+- story: story_002
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_techniques
+  - action: action_inquire_techniques
+  - intent: inquire_boxer_info
+  - action: action_provide_athlete_info
+
+- story: Ask boxer info with ID
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_boxer_info
+    entities:
+      - boxer_name: "alan walker"
+  - action: action_provide_athlete_info
+
+- story: Inquiry about boxing rules
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_rules
+  - action: action_inquire_rules
+  - intent: inquire_rules
+    entities:
+      - rules: "how many"
+  - action: action_inquire_rules
+
+- story: Inquiry about techniques
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_techniques
+  - action: action_inquire_techniques
+  - intent: inquire_techniques
+    entities:
+      - technique: "uppercut"
+  - action: action_inquire_techniques
+
+- story: Inquiry about championships
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_championship_details
+  - action: utter_inquire_championship_details
+  - intent: inquire_championship_details
+    entities:
+      - champion: "WBC"
+  - action: inform_championship_info
+
+- story: Inquiry about boxer
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_boxer_info1
+  - action: utter_inquire_boxer_info
+  - intent: inquire_boxer_info
+    entities:
+      - boxer_name: "Muhammad Ali"
+  - action: action_provide_athlete_info
+
+# ... (additional stories follow the same format)
+
+
+- story: interactive_story_1
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_boxer_info1
+  - action: utter_inquire_boxer_info
+  - intent: inquire_boxer_info
+  - intent: inquire_boxer_info
+    entities:
+    - boxer_name: Cung Le
+  - action: action_provide_athlete_info
+  - intent: inquire_boxer_info
+  - action: action_provide_athlete_info
+
+- story: interactive_story_1
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_boxer_info1
+  - action: utter_inquire_boxer_info
+  - intent: inquire_boxer_info
+  - intent: inquire_boxer_info
+  - intent: inquire_boxer_info
+    entities:
+    - boxer_name: Cung Le
+  - action: action_provide_athlete_info
+
+- story: interactive_story_1
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_rules1
+  - action: action_inquire_rules
+  - intent: inquire_techniques1
+  - intent: inquire_rules
+    entities:
+    - rules: ' hạng cân'
+  - action: action_inquire_rules
+  - intent: inquire_rules1
+  - action: action_inquire_rules
+  - action: action_inquire_rules
+  - intent: inquire_rules
+    entities:
+    - rules: bao nhiêu hiệp
+  - slot_was_set:
+    - rules: bao nhiêu hiệp
+  - action: action_inquire_rules
+  - intent: inquire_techniques1
+  - action: action_inquire_techniques
+  - intent: inquire_championship_details1
+  - action: utter_inquire_championship_details
+  - intent: inquire_championship_details
+    entities:
+    - championship: WBA
+  - slot_was_set:
+    - championship: WBA
+  - action: inform_championship_info
+  - action: inform_championship_info
+
+- story: interactive_story_1
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_championship_details1
+  - action: utter_inquire_championship_details
+  - intent: inquire_championship_details1
+  - intent: inquire_championship_details1
+    entities:
+    - championship: UFC
+  - intent: inquire_championship_details
+    entities:
+    - championship: WBA
+  - slot_was_set:
+    - championship: WBA
+  - action: inform_championship_info
+
+- story: interactive_story_1
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: inquire_boxer_info1
+  - action: utter_inquire_boxer_info
+  - intent: inquire_boxer_info
+  - intent: inquire_boxer_info
+    entities:
+    - boxer_name: Cung Le
+  - action: action_provide_athlete_info

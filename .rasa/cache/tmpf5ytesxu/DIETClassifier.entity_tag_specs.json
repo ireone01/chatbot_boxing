@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-boxer_name",
+      "2": "I-boxer_name",
+      "3": "L-boxer_name",
+      "4": "U-boxer_name",
+      "5": "B-champion",
+      "6": "I-champion",
+      "7": "L-champion",
+      "8": "U-champion",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-boxer_name": 1,
+      "I-boxer_name": 2,
+      "L-boxer_name": 3,
+      "U-boxer_name": 4,
+      "B-champion": 5,
+      "I-champion": 6,
+      "L-champion": 7,
+      "U-champion": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
